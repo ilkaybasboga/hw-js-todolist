@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(./img/img-1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+.h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    margin: 3rem;
+}
+.input,.add{
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(180, 159, 159);
+    border-radius: 1.5rem;
+    font-weight: 500;
+    background-color: rgb(233, 212, 212);
+    color: rgb(46, 26, 2);
+    margin: 3rem 0;
+
+}
+.add{
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(180, 159, 159);
+    border-radius: 1.5rem;
+    font-weight: 900;
+    color: rgb(207, 18, 25);
+    background-color: rgb(7, 36, 225);
+
+}
+
+
+#todo-ul li{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(201, 175, 225);
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 800;
+    color:rgb(51, 38, 23);
+    cursor: pointer;
+    width: 30rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    
+}
+.checked{
+    border-radius: 2rem;
+}
+.checked p{
+    text-decoration: line-through;
+    text-transform: uppercase;   
+}
+.fa-check{
+    color: aqua;
+    font-size: 2rem;
+}
+.fa-trash{
+    color: red;
+    font-size: 2rem;
+}
+.completed{
+    background-color: yellow;
+    color: aqua;
+    border-radius: 1.5rem;
+    padding:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (min-width:0px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .input{
+        width: 65%;
+    }
+    .add{
+        width: 30%;
+        text-align: center;
+    }
+    .todos {
+        width: 100%;
+    }
+    #todo-ul li{
+        display: flex;
+        justify-content: space-between;
+        background-color:rgb(201, 175, 225);
+        padding: 1rem;
+        margin: 1rem;
+        font-weight: 800;
+        color:rgb(51, 38, 23);
+        cursor: pointer;
+        width: 90%;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        
+    }
+    .completed{
+        background-color: yellow;
+        color: aqua;
+        width: 80%;
+        border-radius: 1rem;
+        padding:auto;
+        font-size: 1.2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+@media (min-width:768px){
+   
+    h1{
+        font-size: 5rem;
+    }
+   
+    .todos {
+        width: 50%;
+    }
+    #todo-ul li{
+        display: flex;
+        justify-content: space-between;
+        background-color:rgb(201, 175, 225);
+        padding: 1rem;
+        margin: 1rem;
+        font-weight: 800;
+        color:rgb(51, 38, 23);
+        cursor: pointer;
+        width: 90%;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        
+    }
+    .completed{
+        background-color: yellow;
+        color: aqua;
+        width: 40%;
+        border-radius: 1rem;
+        padding:auto;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (min-width:1024px){
+
+    h1{
+        font-size: 5rem;
+    }
+ 
+    .todos {
+        width: 50%;
+    }
+
+
+}
