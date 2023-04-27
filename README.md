@@ -20,7 +20,9 @@ Website Page Design. (folder)
   
 
 ```
+## Expected Outcome
 
+![Project 003 Snapshot](todo.gif)
 
 ## Steps to Solution
   
