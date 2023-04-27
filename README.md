@@ -26,7 +26,7 @@ Website Page Design. (folder)
   
 - Step 1: Creating the HTML structure,
 
-- Step 2:CSS fire,
+- Step 2:CSS part created
 
 - Step 3: JS file created,
 
